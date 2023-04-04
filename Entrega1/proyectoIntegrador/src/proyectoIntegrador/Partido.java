@@ -22,7 +22,7 @@ public class Partido {
 	// un metodo que retorna un resultado. pasandole un equipo.
 	public ResultadoEnum resultado(Equipo unEquipo) 
 	{	
-		if(unEquipo.nombre() == equipo1.nombre()) 
+		if(unEquipo.nombre().equals(equipo1.nombre())) 
 		{
 			if(golesEquipo1 > golesEquipo2) 
 			{
